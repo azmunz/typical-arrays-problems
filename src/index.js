@@ -30,7 +30,7 @@ exports.avg = function avg(array) {
     }
     let x = 0;
     for (let i = 0; i < array.length; i++) {
-        x = x + arr[i];
+        x = x + array[i];
     }
     return x / array.length;
 };
